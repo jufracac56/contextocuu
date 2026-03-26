@@ -1,0 +1,60 @@
+baseURL = "https://contextocuu.github.io/"
+languageCode = "es-mx"
+title = "Monitor de Contexto Chihuahua"
+theme = "stack"
+defaultContentLanguage = "es"
+hasCJKLanguage = false
+
+[pagination]
+pagerSize = 5
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[permalinks]
+analisis = "/analisis/:slug/"
+
+[params]
+mainSections = ["analisis"]
+rssFullContent = true
+favicon = "img/favicon.ico"
+
+[params.footer]
+since = 2026
+
+[params.sidebar]
+emoji = "*"
+subtitle = "Analisis de contexto Chihuahua"
+avatar = "/images/avatar.jpg"
+
+[params.widgets]
+homepage = [
+	{ type = "search" },
+	{ type = "archives", params = { limit = 5 } },
+	{ type = "categories", params = { limit = 10 } },
+	{ type = "tag-cloud", params = { limit = 10 } }
+]
+page = [{ type = "toc" }]
+
+[params.colorScheme]
+toggle = true
+default = "light"
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/jufracac56"
+
+[menu.social.params]
+icon = "brand-github"
+newTab = true
+
+[[menu.social]]
+identifier = "x"
+name = "X"
+url = "https://x.com/contextocuu"
+
+[menu.social.params]
+icon = "brand-twitter"
+newTab = true
