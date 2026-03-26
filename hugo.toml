@@ -25,7 +25,7 @@ since = 2026
 
 [params.sidebar]
 emoji = "*"
-subtitle = "Analisis de contexto Chihuahua"
+subtitle = "Análisis de contexto Chihuahua"
 avatar = "images/avatar.jpg"
 
 [params.widgets]
